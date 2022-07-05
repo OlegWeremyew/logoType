@@ -1,0 +1,60 @@
+.header__top {
+    background-color: #303030;
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    line-height: 36px;
+    color: #1b1b1b;
+    background-color: #ffc222;
+    width: 263px;
+    height: 45px;
+    font-size: 16px;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.header__btn:hover {
+    color: #cbcacb;
+    background-color: #303030;
+    border-color: #ffc222;
+}
+
+.header__contacts:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__phone,
+.header__email {
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+}
+
+.header__phone:hover,
+.header__email:hover {
+    color: #1b1b1b;
+    background-color: #ffc222;
+    transition: all .2s linear;
+}
+
+.header__phone {
+    padding-right: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.header__email {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__text {
+    padding-left: 10px;
+}
