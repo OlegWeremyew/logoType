@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import './App.css';
-import {Header, SliderList} from "../components";
+import {Header, Services, SliderList} from "../components";
 import Particles from "react-tsparticles";
 import {option, particlesInit} from "./particles";
 
@@ -16,6 +16,7 @@ export const App: FC = () => {
             />
             <Header/>
             <SliderList/>
+            <Services/>
         </div>
     );
 }
