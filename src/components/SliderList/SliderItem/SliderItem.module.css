@@ -1,0 +1,25 @@
+.slider__item {
+    text-align: center;
+    padding-top: 110px;
+    max-width: 665px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider__title {
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider__text {
+    font-size: 18px;
+    color: #d3d2d2;
+    line-height: 24px;
+    margin-bottom: 50px;
+}

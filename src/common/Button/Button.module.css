@@ -1,0 +1,43 @@
+.default__btn {
+    display: inline-block;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    cursor: pointer;
+    border-right-width: 20px;
+    position: relative;
+    transition: all 0.2s linear;
+    border-radius: 1px;
+    outline: none;
+}
+
+.default__btn:hover {
+    background-color: #ffc222;
+    border-color: #fff;
+    transition: all 0.2s linear;
+}
+
+.default__btn:after {
+    content: "";
+    position: absolute;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    height: 6px;
+    width: 6px;
+    z-index: 1;
+    right: -12px;
+    top: 17px;
+    border-radius: 0 0 1px 0;
+}
+
+.default__btn:hover:after {
+    border-color: #ffc222;
+    transform: rotate(-225deg);
+    right: -16px;
+}

@@ -1,0 +1,75 @@
+.slider {
+    background-image: url("../../assets/img/slider-fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0.471);
+    min-height: 500px;
+    position: relative;
+}
+
+.sliderList {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.slider__btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    cursor: pointer;
+    border-right-width: 20px;
+}
+
+.nextArrow {
+    color: #fff;
+    font-size: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.2s linear;
+}
+
+.nextArrow:hover {
+    background-color: #ffc222;
+    transition: all 0.2s linear;
+}
+
+.prevArrow {
+    color: #fff;
+    font-size: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.2s linear;
+}
+
+.prevArrow:hover {
+    background-color: #ffc222;
+    transition: all 0.2s linear;
+}
