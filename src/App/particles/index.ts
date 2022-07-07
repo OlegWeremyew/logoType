@@ -15,7 +15,7 @@ export const option: any = {
             }
         },
         "color": {
-            "value": "#464141"
+            "value": "#e8e0e0"
         },
         "shape": {
             "type": "star",
@@ -56,7 +56,7 @@ export const option: any = {
         "line_linked": {
             "enable": true,
             "distance": 600,
-            "color": "#9f9494",
+            "color": "#e8e0e0",
             "opacity": 0.4,
             "width": 2
         },

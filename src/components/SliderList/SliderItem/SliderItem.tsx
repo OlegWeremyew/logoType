@@ -3,7 +3,7 @@ import styles from "./SliderItem.module.css";
 import {Button} from "../../../common";
 import {SliderItemType} from "./types";
 
-export const SliderItem:FC<SliderItemType> = ({title, text}) => {
+export const SliderItem: FC<SliderItemType> = ({title, text}) => {
     return (
         <div className={styles.slider__item}>
             <div className={styles.slider__title}>
@@ -12,7 +12,7 @@ export const SliderItem:FC<SliderItemType> = ({title, text}) => {
             <div className={styles.slider__text}>
                 {text}
             </div>
-            <Button>Оставить заявку</Button>
+            <Button classStyle='default'>Оставить заявку</Button>
         </div>
     );
 };

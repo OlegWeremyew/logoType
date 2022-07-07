@@ -1,0 +1,44 @@
+.services__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.services__title_box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.services__title_box:before {
+    content: "";
+    position: absolute;
+    width: 105px;
+    height: 3px;
+    background-color: #ffc222;
+    left: 0;
+    top: 12px;
+}
+
+.services__title {
+    color: #212020;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.services__text {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+.services__btn a {
+    margin-top: 20px;
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+}

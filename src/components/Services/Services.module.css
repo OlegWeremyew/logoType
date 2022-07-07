@@ -1,0 +1,8 @@
+.services {
+    padding: 50px 0px 30px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+}
