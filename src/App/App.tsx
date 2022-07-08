@@ -1,11 +1,10 @@
 import React, {FC} from 'react';
 import './App.css';
-import {About, Header, Services, SliderList} from "../components";
+import {About, Footer, Header, News, Services, SliderList} from "../components";
 import Particles from "react-tsparticles";
 import {option, particlesInit} from "./particles";
 
 export const App: FC = () => {
-
     return (
         <div>
             <Particles
@@ -18,6 +17,8 @@ export const App: FC = () => {
             <SliderList/>
             <Services/>
             <About/>
+            {/*  <News/>
+            <Footer/>*/}
         </div>
     );
 }
